@@ -5,4 +5,5 @@ def greet(name):
     print(f"Hello, {name}\n")
 
 if __name__ == '__main__':
-    greet(sys.argv[1])
+    if len(sys.argv) >0:
+        greet(sys.argv[1])
