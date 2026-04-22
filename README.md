@@ -38,6 +38,6 @@ Hello, [YOUR_NAME]
 Without an argument:
 
 ```
-
+Usage: toynano.sh YOUR_NAME
 
 ```
