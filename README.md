@@ -10,7 +10,34 @@ Those are not used in the actual code, but are set as required dependencies just
  - pandas (latest)
  - numpy (latest)
 
-# Install from GitHub
+# Install
+
+From GitHub in a conda environment (recommended):
+
+```
+# clone this repository 
+git clone https://github.com/jeffgauthier/toynano.git
+cd toynano
+
+# create a conda env
+conda create -n toynano_env -c --file requirements.txt
+
+# activate conda env
+conda activate toynano_env
+
+# install toynano
+pip install .
+
+# (optional) source code folder not required anymore. It can be deleted
+# (notably to test if installation to conda env was successful)
+cd ..
+rm -rf toynano
+
+# deactivate conda env
+conda deactivate
+```
+
+From GitHub in your global environment:
 
 ```
 git clone https://github.com/jeffgauthier/toynano.git
@@ -21,6 +48,8 @@ pip install .
 # Usage
 
 ```
+# if installed in a conda env:
+# conda activate toynano_env
 toynano.sh [YOUR_NAME]
 ```
 
