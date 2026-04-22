@@ -14,7 +14,7 @@ Those are not used in the actual code, but are set as required dependencies just
 
 From GitHub in a conda environment (recommended):
 
-```
+```{bash}
 # clone this repository 
 git clone https://github.com/jeffgauthier/toynano.git
 cd toynano
@@ -39,7 +39,7 @@ conda deactivate
 
 From GitHub in your global environment:
 
-```
+```{bash}
 git clone https://github.com/jeffgauthier/toynano.git
 cd toynano
 pip install .
@@ -47,7 +47,7 @@ pip install .
 
 # Usage
 
-```
+```{bash}
 # if installed in a conda env:
 # conda activate toynano_env
 toynano.sh [YOUR_NAME]
@@ -57,12 +57,12 @@ toynano.sh [YOUR_NAME]
 
 With an argument:
 
-```
+```{bash}
 Hello, [YOUR_NAME]
 ```
 
 Without an argument:
 
-```
+```{bash}
 Usage: toynano.sh YOUR_NAME
 ```
