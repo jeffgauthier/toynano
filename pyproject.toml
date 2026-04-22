@@ -16,8 +16,15 @@ description = "A toy Python source code for practicing packaging."
 readme = "README.md"
 license-files = ["LICEN[CS]E.*"]
 dependencies = [
-    "numpy", "pandas"
+    "numpy", 
+    "pandas"
 ]
 
 [tool.setuptools]
 script-files = [ "src/toynano.sh" ]
+
+[tool.hatch.envs.hatch-build]
+dependencies = [
+  "numpy",
+  "pandas"
+]
