@@ -6,7 +6,7 @@ It just says hello with your name as first positional argument.
 # Usage
 
 ```
-toynano [YOUR_NAME]
+toynano.sh [YOUR_NAME]
 
 cd src; python3 -m toynano [YOUR_NAME]
 
