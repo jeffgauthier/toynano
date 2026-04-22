@@ -17,7 +17,6 @@ maintainers = [
 ]
 description = "A toy Python source code for practicing packaging."
 readme = "README.md"
-license = "GPLv3"
 license-files = ["LICEN[CS]E.*"]
 
 [tool.setuptools]
