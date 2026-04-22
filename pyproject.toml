@@ -1,5 +1,9 @@
 [build-system]
-requires = ["setuptools"]
+requires = [
+    "setuptools"
+    "numpy", 
+    "pandas"
+]
 
 [project]
 name = "toynano"
@@ -15,6 +19,7 @@ description = "A toy Python source code for practicing packaging."
 readme = "README.md"
 license-files = ["LICEN[CS]E.*"]
 dependencies = [
+    "setuptools"
     "numpy", 
     "pandas"
 ]
