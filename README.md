@@ -6,10 +6,9 @@ It just says hello with your name as first positional argument.
 # Usage
 
 ```
+git clone https://github.com/jeffgauthier/toynano.git
+cd toynano
+pip install .
 toynano.sh [YOUR_NAME]
-
-cd src; python3 -m toynano [YOUR_NAME]
-
-cd src; bash run.sh [YOUR NAME]
 
 ```
