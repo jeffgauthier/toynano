@@ -6,5 +6,5 @@ if [ -z $1 ]; then
 	echo "Usage: toynano YOUR_NAME"
 	exit 1
 else
-	python3 $(dirname $0)/toynano/hello.py $NAME
+	python3 -m toynano $NAME
 fi
