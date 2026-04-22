@@ -10,12 +10,18 @@ Those are not used in the actual code, but are set as required dependencies just
  - pandas (latest)
  - numpy (latest)
 
-# Usage
+# Install from GitHub
 
 ```
 git clone https://github.com/jeffgauthier/toynano.git
 cd toynano
 pip install .
+
+```
+
+# Usage
+
+```
 toynano.sh [YOUR_NAME]
 
 ```
