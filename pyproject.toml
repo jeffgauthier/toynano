@@ -17,7 +17,6 @@ description = "A toy Python source code for practicing packaging."
 readme = "README.md"
 license-files = ["LICEN[CS]E.*"]
 dependencies = [
-    "setuptools",
     "numpy", 
     "pandas"
 ]
@@ -28,4 +27,3 @@ script-files = [ "src/toynano.sh" ]
 [tool.setuptools_conda]
 conda_name_differences = {PyQt5 = "pyqt"}
 noarch = true
-channels = ["conda-forge", "defaults"]
