@@ -1,0 +1,24 @@
+[build-system]
+requires = [ "setuptools" ]
+
+[project]
+name = "toynano"
+version = "0.0.1"
+dependencies = [
+  "numpy",
+  "pandas"
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Jeff Gauthier", email = "jeff.gauthier.1@ulaval.ca"}
+]
+maintainers = [
+  {name = "Jeff Gauthier", email = "jeff.gauthier.1@ulaval.ca"}
+]
+description = "A toy Python source code for practicing packaging."
+readme = "README.md"
+license = "GPLv3"
+license-files = ["LICEN[CS]E.*"]
+
+[tool.setuptools]
+script-files = [ "src/run.sh" ]
