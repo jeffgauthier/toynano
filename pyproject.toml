@@ -20,4 +20,4 @@ readme = "README.md"
 license-files = ["LICEN[CS]E.*"]
 
 [tool.setuptools]
-script-files = [ "src/run.sh" ]
+script-files = [ "src/toynano.sh" ]
