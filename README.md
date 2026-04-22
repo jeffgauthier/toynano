@@ -25,3 +25,19 @@ pip install .
 toynano.sh [YOUR_NAME]
 
 ```
+
+# Output
+
+With an argument:
+
+```
+Hello, [YOUR_NAME]
+
+```
+
+Without an argument:
+
+```
+
+
+```
