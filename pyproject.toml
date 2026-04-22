@@ -4,10 +4,6 @@ requires = [ "setuptools" ]
 [project]
 name = "toynano"
 version = "0.0.1"
-dependencies = [
-  "numpy",
-  "pandas"
-]
 requires-python = ">=3.8"
 authors = [
   {name = "Jeff Gauthier", email = "jeff.gauthier.1@ulaval.ca"}
