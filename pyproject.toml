@@ -1,6 +1,5 @@
 [build-system]
-requires = ["hatchling", "hatch-conda-build", "setuptools"]
-build-backend = "hatchling.build"
+requires = ["setuptools"]
 
 [project]
 name = "toynano"
@@ -22,9 +21,3 @@ dependencies = [
 
 [tool.setuptools]
 script-files = [ "src/toynano.sh" ]
-
-[tool.hatch.envs.hatch-build]
-dependencies = [
-  "numpy",
-  "pandas"
-]
