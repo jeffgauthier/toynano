@@ -29,5 +29,5 @@ script-files = [ "src/toynano.sh" ]
 
 [tool.setuptools_conda]
 conda_name_differences = {PyQt5 = "pyqt"}
-pythons = ["3.12", "3.13"]
+noarch = true
 channels = ["conda-forge", "defaults"]
