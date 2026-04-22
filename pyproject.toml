@@ -15,10 +15,9 @@ maintainers = [
 description = "A toy Python source code for practicing packaging."
 readme = "README.md"
 license-files = ["LICEN[CS]E.*"]
-dynamic = ["dependencies"]
+dependencies = [
+    "numpy", "pandas"
+]
 
 [tool.setuptools]
 script-files = [ "src/toynano.sh" ]
-
-[tool.setuptools.dynamic]
-dependencies = { file = ["requirements.txt"] }
