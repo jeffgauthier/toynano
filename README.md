@@ -16,14 +16,12 @@ Those are not used in the actual code, but are set as required dependencies just
 git clone https://github.com/jeffgauthier/toynano.git
 cd toynano
 pip install .
-
 ```
 
 # Usage
 
 ```
 toynano.sh [YOUR_NAME]
-
 ```
 
 # Output
@@ -32,12 +30,10 @@ With an argument:
 
 ```
 Hello, [YOUR_NAME]
-
 ```
 
 Without an argument:
 
 ```
 Usage: toynano.sh YOUR_NAME
-
 ```
