@@ -20,7 +20,7 @@ git clone https://github.com/jeffgauthier/toynano.git
 cd toynano
 
 # create a conda env
-conda create -n toynano_env -c --file requirements.txt
+conda create -n toynano_env --file requirements.txt
 
 # activate conda env
 conda activate toynano_env
