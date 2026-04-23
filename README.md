@@ -12,7 +12,7 @@ Those are not used in the actual code, but are set as required dependencies just
 
 # Install
 
-From GitHub in a conda environment (recommended):
+From GitHub in an isolated Conda environment (recommended):
 
 ```{bash}
 # clone this repository 
